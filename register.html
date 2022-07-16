@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<h1>Register</h1>
+	
+	<a href="index.html">Back to home:)</a><br><br>
+
+	<form method="GET">
+		
+		First Name: <input type="text" name="first-name" required><br>
+		
+		Last Name: <input type="text" name="last-name" required><br>
+		
+		Email: <input type="email" name="email" required><br>
+		
+		Password: <input type="password" name="password" minlength="5" maxlength="8" required><br><br>
+		
+		Birthday: <input type="date" name="birthday" required><br><br>
+		
+		Gender: <br>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender"
+		value="female">Female<br>
+		<input type="radio" name="gender"
+		value="others">Others<br>
+		<input type="radio" name="gender"
+		value="prefer-not-to-say">Prefer not to say<br>
+		<br>
+
+
+
+		Favourite fruit(s):
+		<select name="Fruit">
+			<option value="mango">mango</option>
+			<option value="oranges">oranges</option>
+			<option value="apples">apples</option>
+			<option value="grapes">grapes</option>
+			<option value="all-the-above">All the above</option>
+
+		</select><br>
+		If your favourite fruit is not in the list type it here:	<br>
+		<textarea name="other-fruit" id="other-fruit" cols="30" rows="10" placeholder="type here and also add description about it if you want to"></textarea>
+		<br>
+
+		<input type="submit">
+		<input type="reset">
+
+	</form>
+
+</body>
+</html>
+
+
+
+<!-- <div></div>
+used to wrap the form kinda useless now usefull for css-->
+<!-- <span></span> 
+inline element used for css (specific element)-->
